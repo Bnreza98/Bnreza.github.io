@@ -20,12 +20,12 @@
           </div>
           {% if link.image %} 
             <div class="image-container" style="margin-top: 15px;">
-              <img src="{{ link.image }}" class="teaser img-fluid z-depth-1" style="width: 100%; display: block; margin: 0 auto;">
+              <img src="{{ link.image }}" class="teaser img-fluid z-depth-1" style="width: 100%;  height: auto; display: block; margin: 0 auto;">
             </div>
           {% endif %}
           {% if link.image2 %}
             <div class="image-container" style="margin-top: 15px;">
-              <img src="{{ link.image2 }}" class="teaser img-fluid z-depth-1" style="width: 100%; display: block; margin: 0 auto;">
+              <img src="{{ link.image2 }}" class="teaser img-fluid z-depth-1" style="width: 100%; height: auto;display: block; margin: 0 auto;">
             </div>
           {% endif %}
         </div>
