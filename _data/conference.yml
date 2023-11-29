@@ -4,7 +4,7 @@ main:
     authors:  <strong>Nejad, R. B.</strong>, Khoramdel, J., Ghanbarzadeh, A., Sharbatdar, M., & Najafi, E.
     conference: 10th RSI International Conference on Robotics and Mechatronics <strong>(ICROM)</strong>, 2022.
     image: "./assets/files/ICRoM22_Reza.jpg"
-    image2: "./assets/files/Retinal_network_structure.png" # Add the second image path
+    image2: "./assets/files/ICRoM22_Reza.jpg" # Add the second image path
     description: "This paper introduces deep learning approaches for discerning images captured through the Optical Coherence Tomography technique, 
     distinguishing between normal eye images and those associated with three eye-related conditions including Diabetic Macular Edema (DME), Choroidal neovascularization (CNV),
     and DURSEN. Given the promising outcomes of utilizing transformers in vision tasks, the primary objective of this study is to explore 
