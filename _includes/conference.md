@@ -1,26 +1,16 @@
-<h3 id="publications" style="margin: 2px 0px -15px;">Conference Proceedings</h3>
-
-<div class="publications">
+<h3 id="publications" style="margin: 2px 0px -15px;">Journal Articles</h3>
+<div class="publications" style="text-align: justify;">
   <ol class="bibliography">
-    {% for link in site.data.conference.main %}
+    {% for link in site.data.publications.main %}
       <li>
-        <div class="pub-row">
-          <div class="col-sm-3 abbr" style="position: relative; padding-right: 15px; padding-left: 15px;">
-            {% if link.image %} 
-              <img src="{{ link.image }}" class="teaser img-fluid z-depth-1" style="width: 250px; height: auto;">
-            {% endif %}
-            {% if link.image2 %} <!-- Add this block for the second image -->
-              <img src="{{ link.image2 }}" class="teaser img-fluid z-depth-1" style="width: 500px; height: auto;">
-            {% endif %}
-            {% if link.conference_short %} 
-              <abbr class="badge">{{ link.conference_short }}</abbr>
-            {% endif %}
-          </div>
-          <div class="col-sm-9" style="position: relative; padding-right: 15px; padding-left: 20px;">
+        <div class="pub-row" style="display: block;">
+          <div class="pub-info" style="padding-right: 15px; padding-left: 15px;">
             <div class="title"><a href="{{ link.site }}">{{ link.title }}</a></div>
             <div class="author">{{ link.authors }}</div>
-            <div class="periodical"><em>{{ link.conference }}</em></div>
-            <div class="description">{{ link.description }}</div> <!-- Add this line for the description -->
+            {% if link.conference %} 
+              <div class="periodical"><em>{{ link.conference }}</em></div>
+            {% endif %}
+            <div class="description">{{ link.description }}</div>
             <div class="links">
               {% if link.pdf %} 
                 <a href="{{ link.pdf }}" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">PDF</a>
@@ -28,14 +18,19 @@
               <!-- ... (Other links) ... -->
             </div>
           </div>
+          {% if link.image %} 
+            <div class="image-container" style="margin-top: 15px;">
+              <img src="{{ link.image }}" class="teaser img-fluid z-depth-1" style="width: 100%; display: block; margin: 0 auto;">
+            </div>
+          {% endif %}
+          {% if link.image2 %}
+            <div class="image-container" style="margin-top: 15px;">
+              <img src="{{ link.image2 }}" class="teaser img-fluid z-depth-1" style="width: 100%; display: block; margin: 0 auto;">
+            </div>
+          {% endif %}
         </div>
       </li>
-
-
-<br>
-
-{% endfor %}
-
-</ol>
+      <br>
+    {% endfor %}
+  </ol>
 </div>
-
