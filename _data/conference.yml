@@ -13,3 +13,14 @@ main:
     The results indicate that the proposed model attains a test accuracy of 99.38%, surpassing the performance of other models."
     site: https://ieeexplore.ieee.org/document/10025206
 
+  - title: Design and Fabrication of an Inflatable Soft Robot for Enhancing Foot Drop Rehabilitation
+    authors:Gharibkhanian, A., <strong>Nejad, R. B.</strong>, Ghafarirad, H., & Zareinejad, M
+    conference: 11th RSI International Conference on Robotics and Mechatronics <strong>(ICROM)</strong>, 2023.
+    image: "./assets/files/setup.png"
+    description: "Foot drop is characterized by the inability to raise the front of the foot, resulting from a weakening of the dorsiflexor muscles. This condition can cause an unsteady and painful
+    walking gait, increasing the risk of tripping and potential falls.The traditional method of managing foot drop involves using an ankle-foot orthosis. However, wearable robots provide a
+    promising alternative for muscle injury rehabilitation. This paper presents a soft wearable rehabilitation robot equipped with
+    pneumatic fiber actuators designed to assist dorsiflexor muscles.Unlike conventional medical orthoses, this soft ankle orthosis
+    preserves natural ankle motion, facilitating a more natural gait recovery for patients. With a maximum force output of 150 Newtons and a lightweight design of just 82 grams, it offers
+    comfortable wear, similar to regular clothing."
+    site: https://ieeexplore.ieee.org/document/10025206
