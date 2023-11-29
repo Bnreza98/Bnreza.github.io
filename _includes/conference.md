@@ -1,7 +1,7 @@
 <h3 id="publications" style="margin: 2px 0px -15px;">Conference Proceedings</h3>
 <div class="publications" style="text-align: justify;">
   <ol class="bibliography">
-    {% for link in site.data.publications.main %}
+    {% for link in site.data.conference.main %}
       <li>
         <div class="pub-row" style="display: block;">
           <div class="pub-info" style="padding-right: 15px; padding-left: 15px;">
