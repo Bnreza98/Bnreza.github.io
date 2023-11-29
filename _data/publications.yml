@@ -3,16 +3,18 @@ main:
   - title: "Intelligent Cervical Spine Fracture Detection Using Dee Learning Methods."
     authors: "<strong>Nejad, R. B.</strong>, Komijani, A. H., & Najafi, E."
     conference: "arXiv preprint"
-    image1: "/path/to/image1.jpg"
-    image2: "/path/to/image2.jpg"
+    image1: "assets/files/GC_ViT_Structure"
+    image2: "assets/files/Figure9_c"
     description: "Vision transformers (ViTs) are very popular in computer vision because it's relatively easy to get good performance out of pretrained models. 
-However, ViTs face challenges in efficiently modeling both long-range and short-range spatial interactions. 
-GC ViT enhances parameter and compute efficiency in computer vision by combining global and local self-attention to model 
-both long and short-range spatial interactions without the need for expensive operations. It also tackles ViTs' inductive 
-bias issue using modified fused inverted residual blocks. 
-In this project, a two-stage pipeline is proposed to classify cervical vertebrae and detect fractures. Firstly, the Global Context Vision Transformer 
-is applied to cervical spine fracture CT images to classify the vertebrae. Its performance is then compared to other deep learning methods, including ResNet,
-Convnext, Vision Transformer, and Swin Transformer. In the second stage, the YOLOv8 Algorithm is implemented to detect fractures."
+                  However, ViTs face challenges in efficiently modeling both long-range and short-range spatial interactions. 
+                  GC ViT enhances parameter and compute efficiency in computer vision by combining global and local self-attention to model 
+                  both long and short-range spatial interactions without the need for expensive operations. It also tackles ViTs' inductive 
+                  bias issue using modified fused inverted residual blocks. 
+                  In this project, a two-stage pipeline is proposed to classify cervical spine vertebrae and detect fractures. Firstly, 
+                  a multi-input network is developed, utilizing both image data and image metadata. The network is trained using the
+                  Global Context Vision Transformer for the analysis of cervical spine fracture CT images. Its performance is then compared to other 
+                  deep learning methods, including ResNet, Convnext, Vision Transformer, and Swin Transformer. In the second stage, the YOLOv8 Algorithm 
+                  is implemented to detect fractures."
     pdf: "/path/to/publication1.pdf"
     bibtex: ""
     notes: " Under Review in medical engineering and physics"
