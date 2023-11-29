@@ -30,11 +30,9 @@
           </div>
         </div>
       </li>
-<br>
-{% endfor %}
-</ol>
-</div>
-{% endfor %}
-</ol>
+
+      <br>
+    {% endfor %}
+  </ol>
 </div>
 
