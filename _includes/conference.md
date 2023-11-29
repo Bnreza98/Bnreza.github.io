@@ -1,4 +1,4 @@
-<h3 id="publications" style="margin: 2px 0px -15px;">Journal Articles</h3>
+<h3 id="publications" style="margin: 2px 0px -15px;">Conference Proceedings</h3>
 <div class="publications" style="text-align: justify;">
   <ol class="bibliography">
     {% for link in site.data.publications.main %}
