@@ -1,15 +1,26 @@
 main:
 
-  - title: "Deep Reinforcement Learning Graphs: Feedback Motion Planning via Neural Lyapunov Verification"
-    authors: <strong>A. Ghanbarzadeh</strong> and E. Najafi
-    site: assets/files/Armin_Ghanbarzadeh_CV.pdf
-    pdf: assets/files/Armin_Ghanbarzadeh_CV.pdf
-    image: ./assets/files/Tree_Armin.png
-    notes: Under Review
+  - title: "Intelligent Cervical Spine Fracture Detection Using Dee Learning Methods."
+    authors: "<strong>Nejad, R. B.</strong>, Komijani, A. H., & Najafi, E."
+    conference: "arXiv preprint"
+    image1: "/path/to/image1.jpg"
+    image2: "/path/to/image2.jpg"
+    description: "Vision transformers (ViTs) are very popular in computer vision because it's relatively easy to get good performance out of pretrained models. 
+However, ViTs face challenges in efficiently modeling both long-range and short-range spatial interactions. 
+GC ViT enhances parameter and compute efficiency in computer vision by combining global and local self-attention to model 
+both long and short-range spatial interactions without the need for expensive operations. It also tackles ViTs' inductive 
+bias issue using modified fused inverted residual blocks. 
+In this project, a two-stage pipeline is proposed to classify cervical vertebrae and detect fractures. Firstly, the Global Context Vision Transformer 
+is applied to cervical spine fracture CT images to classify the vertebrae. Its performance is then compared to other deep learning methods, including ResNet,
+Convnext, Vision Transformer, and Swin Transformer. In the second stage, the YOLOv8 Algorithm is implemented to detect fractures."
+    pdf: "/path/to/publication1.pdf"
+    bibtex: ""
+    notes: " Under Review in medical engineering and physics"
+    others: ""
 
-  - title: Safe Physical Human-Robot Interaction through Variable Impedance Control based on ISO/TS 15066
-    authors: <strong>A. Ghanbarzadeh</strong> and E. Najafi
-    site: https://ieeexplore.ieee.org/document/10025206
-    pdf: assets/files/ICRoM22_Reza.pdf
-    image: ./assets/files/IMP_Armin.png
-    notes: Under Review in IJIDeM
+  # - title: Safe Physical Human-Robot Interaction through Variable Impedance Control based on ISO/TS 15066
+  #   authors: <strong>A. Ghanbarzadeh</strong> and E. Najafi
+  #   site: https://ieeexplore.ieee.org/document/10025206
+  #   pdf: assets/files/ICRoM22_Reza.pdf
+  #   image: ./assets/files/IMP_Armin.png
+  #   notes: Under Review in IJIDeM
