@@ -26,7 +26,7 @@ main:
   - title: Design and Fabrication of an Inflatable Soft Robot for Enhancing Foot Drop Rehabilitation
     authors:Gharibkhanian, A., <strong>Nejad, R. B.</strong>, Ghafarirad, H., & Zareinejad, M
     conference: 11th RSI International Conference on Robotics and Mechatronics <strong>(ICROM)</strong>, 2023.
-    image: "./assets/files/Setup.jpg"
+    image: "./assets/files/Setup.png"
     description: "Foot drop is characterized by the inability to raise the front of the foot, resulting from a weakening of the dorsiflexor muscles. This condition can cause an unsteady and painful
     walking gait, increasing the risk of tripping and potential falls.The traditional method of managing foot drop involves using an ankle-foot orthosis. However, wearable robots provide a
     promising alternative for muscle injury rehabilitation. This paper presents a soft wearable rehabilitation robot equipped with
