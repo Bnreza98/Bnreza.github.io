@@ -1,10 +1,9 @@
 main:
-
   - title: "Intelligent Cervical Spine Fracture Detection Using Dee Learning Methods."
     authors: "<strong>Nejad, R. B.</strong>, Komijani, A. H., & Najafi, E."
     conference: "arXiv preprint"
-    image1: "assets/files/GC_ViT_Structure"
-    image2: "assets/files/Figure9_c"
+    image1: "assets/files/GC_ViT_Structure.png"  # Add the correct file extension, e.g., ".jpg"
+    image2: "assets/files/Figure9_c.png"  # Add the correct file extension, e.g., ".jpg"
     description: "Vision transformers (ViTs) are very popular in computer vision because it's relatively easy to get good performance out of pretrained models. 
                   However, ViTs face challenges in efficiently modeling both long-range and short-range spatial interactions. 
                   GC ViT enhances parameter and compute efficiency in computer vision by combining global and local self-attention to model 
@@ -19,6 +18,7 @@ main:
     bibtex: ""
     notes: " Under Review in medical engineering and physics"
     others: ""
+
 
   # - title: Safe Physical Human-Robot Interaction through Variable Impedance Control based on ISO/TS 15066
   #   authors: <strong>A. Ghanbarzadeh</strong> and E. Najafi
