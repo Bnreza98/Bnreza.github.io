@@ -7,30 +7,3 @@ main:
     site: https://ieeexplore.ieee.org/document/10025206
     pdf: assets/files/ICRoM22_Reza.pdf
     image: ./assets/files/ICRoM22_Reza.jpg
-
-  - title: Design of a Genetic based Optimized Fuzzy Logic Controller for Enhanced Trajectory Tracking Accuracy of a 3P Robot
-    authors: A. Kouhkord, <strong>A. Ghanbarzadeh</strong>, P. Ebrahimi and E. Najafi
-    conference_short: ICROM
-    conference: 10th RSI International Conference on Robotics and Mechatronics <strong>(ICROM)</strong>, 2022.
-    site: https://ieeexplore.ieee.org/document/10025249
-    pdf: assets/files/ICRoM22_Koohkord.pdf
-    image: ./assets/files/ICRoM22_Koohkord.png
-    notes: Oral Presentation
-
-  - title: Design of an Intelligent Control System for Safe Collaboration between Human and a Robotic Manipulator
-    authors: A. Aeini, E. Droudian, <strong>A. Ghanbarzadeh</strong> and E. Najafi
-    conference_short: ICROM
-    conference: 9th RSI International Conference on Robotics and Mechatronics <strong>(ICROM)</strong>, 2021.
-    site: https://ieeexplore.ieee.org/document/9663503
-    pdf: assets/files/ICRoM21_Aeini.pdf
-    image: ./assets/files/ICRoM21_Aeini.jpg
-    notes: Oral Presentation
-
-  - title: Design of an Optimized Fuzzy Controller for a 3R Non-planar Robotic Manipulator
-    authors: <strong>A. Ghanbarzadeh</strong> and E. Najafi
-    conference_short: ICROM
-    conference: 9th RSI International Conference on Robotics and Mechatronics <strong>(ICROM)</strong>, 2021.
-    site: https://ieeexplore.ieee.org/document/9663441
-    pdf: assets/files/ICRoM21_Armin.pdf
-    image: ./assets/files/ICRoM21_Armin.png
-    notes: Oral Presentation
