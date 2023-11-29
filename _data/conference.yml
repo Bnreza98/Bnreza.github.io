@@ -1,16 +1,7 @@
 main:
 
-  - title: Control Design for Safe Human-Robot Collaboration based on ISO/TS 15066 with Power and Force Limit
-    authors: A. Golshani, A. Kouhkord, <strong>A. Ghanbarzadeh</strong> and E. Najafi
-    conference_short: ICROM
-    conference: 11th RSI International Conference on Robotics and Mechatronics <strong>(ICROM)</strong>, 2023.
-    site: assets/files/Armin_Ghanbarzadeh_CV.pdf
-    pdf: assets/files/Armin_Ghanbarzadeh_CV.pdf
-    image: ./assets/files/ICRoM23_Golshani.png
-    notes: Oral Presentation
-
   - title: A Multiclass Retinal Diseases Classification Algorithm using Deep Learning Methods
-    authors: R. B. Nejad, J. Khoramdel, <strong>A. Ghanbarzadeh</strong>, M. Sharbatdar and E. Najafi
+    authors:  <strong> R. B. Nejad</strong>, J. Khoramdel,A. Ghanbarzadeh, M. Sharbatdar and E. Najafi
     conference_short: ICROM
     conference: 10th RSI International Conference on Robotics and Mechatronics <strong>(ICROM)</strong>, 2022.
     site: https://ieeexplore.ieee.org/document/10025206
