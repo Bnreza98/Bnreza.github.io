@@ -19,12 +19,19 @@ main:
     others: ""
 
 
-
-
-
-  # - title: Safe Physical Human-Robot Interaction through Variable Impedance Control based on ISO/TS 15066
-  #   authors: <strong>A. Ghanbarzadeh</strong> and E. Najafi
-  #   site: https://ieeexplore.ieee.org/document/10025206
-  #   pdf: assets/files/ICRoM22_Reza.pdf
-  #   image: ./assets/files/IMP_Armin.png
-  #   notes: Under Review in IJIDeM
+main:
+  - title: "“IoT-based Intelligent Monitoring System for Driving Safety Enhancement"
+    authors: "<strong>Nejad, R. B.</strong>, Nikanfar, S., Khoramdel, J., & Najafi, E"
+    conference: "arXiv preprint"
+    image: "assets/files/Driving_Safety.png"  # Add the correct file extension
+    description: "This paper focuses on improving driving safety through the use of practical data. 
+    It presents an IoT-based intelligent monitoring, which utilizes data 
+    from within the vehicle (OBD-II port) and applies an autoencoder network to categorize driving behaviors. 
+    This network integrates bidirectional LSTM and 1D convolutional layers, enhanced by specific adjustments.
+    To address concerns about the sensitivity and privacy of personal driving data, the system also integrates
+    Federated Learning (FL) as a decentralized learning method.
+"
+    pdf: ""
+    bibtex: ""
+    notes: "Under Review in medical engineering and physics"
+    others: ""
