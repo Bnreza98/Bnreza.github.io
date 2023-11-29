@@ -21,7 +21,6 @@ main:
     Accurate detection of pedestrians could be a challenging task to provide safe vehicle and pedestrian interaction. This work incorporates two deep
     learning-based models YOLOv5 and YOLOv8 aiming at safe interaction between AVs and pedestrians specifically in complex and high-density environments"
     site: 
-    notes: "IEEE Pending publication"
 
   - title: Design and Fabrication of an Inflatable Soft Robot for Enhancing Foot Drop Rehabilitation
     authors:Gharibkhanian, A., <strong>Nejad, R. B.</strong>, Ghafarirad, H., & Zareinejad, M
@@ -34,6 +33,5 @@ main:
     preserves natural ankle motion, facilitating a more natural gait recovery for patients. With a maximum force output of 150 Newtons and a lightweight design of just 82 grams, it offers
     comfortable wear, similar to regular clothing."
     site:
-    notes: "Accepted for presentation"
 
     
