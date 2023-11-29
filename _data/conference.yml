@@ -13,12 +13,3 @@ main:
     The results indicate that the proposed model attains a test accuracy of 99.38%, surpassing the performance of other models."
     site: https://ieeexplore.ieee.org/document/10025206
 
-  - title: IoT-based Intelligent Detection System for Pedestrian Safety Enhancement.
-    authors:  Hosni, M. M., <strong>Nejad, R. B.</strong>, Najafi, E
-    conference:  7th International Conference on Internet of Things and Applications (IoT) (pp. Pending). IEEE. 2023
-    image: "./assets/files/pedestrian_safety"
-    description: "Pedestrian safety is of utmost importance in developing Autonomous Vehicles (AVs).
-    Accurate detection of pedestrians could be a challenging task to provide safe vehicle and pedestrian interaction. This work incorporates two deep
-    learning-based models YOLOv5 and YOLOv8 aiming at safe interaction between AVs and pedestrians specifically in complex and high-density environments"
-    site: https://ieeexplore.ieee.org/document/10025206
-
