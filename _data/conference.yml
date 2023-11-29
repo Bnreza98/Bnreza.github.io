@@ -1,34 +1,39 @@
 main:
-
   - title: A Multiclass Retinal Diseases Classification Algorithm using Deep Learning Methods
-    authors:  <strong>Nejad, R. B.</strong>, Khoramdel, J., Ghanbarzadeh, A., Sharbatdar, M., & Najafi, E.
-    conference: 10th RSI International Conference on Robotics and Mechatronics <strong>(ICROM)</strong>, 2022.
+    authors: "<strong>Nejad, R. B.</strong>, Khoramdel, J., Ghanbarzadeh, A., Sharbatdar, M., & Najafi, E."
+    conference: "10th RSI International Conference on Robotics and Mechatronics <strong>(ICROM)</strong>, 2022."
     image: "./assets/files/ICRoM22_Reza.jpg"
-    description: "This paper introduces deep learning approaches for discerning images captured through the Optical Coherence Tomography technique, 
-    distinguishing between normal eye images and those associated with three eye-related conditions including Diabetic Macular Edema (DME), Choroidal neovascularization (CNV),
-    and DURSEN. Given the promising outcomes of utilizing transformers in vision tasks, the primary objective of this study is to explore 
-    the use of Recurrent Neural Networks (RNNs) in certain classification scenarios. To accomplish this goal, a patch extraction process 
-    is applied to the images. Subsequently, the extracted patches are treated as sequences, and bidirectional Recurrent Neural Networks are employed for image classification.
-    Additionally, four pre-trained models—VGG16, ResNet152V2, NasnetMobile, and Densenet169—along with a vision transformer model, are implemented and compared. 
-    The results indicate that the proposed model attains a test accuracy of 99.38%, surpassing the performance of other models."
-    site: https://ieeexplore.ieee.org/document/10025206
+    description: >
+      "This paper introduces deep learning approaches for discerning images captured through the Optical Coherence Tomography technique, 
+      distinguishing between normal eye images and those associated with three eye-related conditions including Diabetic Macular Edema (DME), 
+      Choroidal neovascularization (CNV), and DURSEN. Given the promising outcomes of utilizing transformers in vision tasks, the primary 
+      objective of this study is to explore the use of Recurrent Neural Networks (RNNs) in certain classification scenarios. To accomplish 
+      this goal, a patch extraction process is applied to the images. Subsequently, the extracted patches are treated as sequences, and 
+      bidirectional Recurrent Neural Networks are employed for image classification. Additionally, four pre-trained models—VGG16, ResNet152V2, 
+      NasnetMobile, and Densenet169—along with a vision transformer model, are implemented and compared. The results indicate that the proposed 
+      model attains a test accuracy of 99.38%, surpassing the performance of other models."
+    site: "https://ieeexplore.ieee.org/document/10025206"
 
-  - title: Design and Fabrication of an Inflatable Soft Robot for Enhancing Foot Drop Rehabilitation
-    authors: Gharibkhanian, A., <strong>Nejad, R. B.</strong>, Ghafarirad, H., & Zareinejad, M
-    conference: 11th RSI International Conference on Robotics and Mechatronics <strong>(ICROM)</strong>, 2023.
+  - title: "Design and Fabrication of an Inflatable Soft Robot for Enhancing Foot Drop Rehabilitation"
+    authors: "Gharibkhanian, A., <strong>Nejad, R. B.</strong>, Ghafarirad, H., & Zareinejad, M."
+    conference: "11th RSI International Conference on Robotics and Mechatronics <strong>(ICROM)</strong>, 2023."
     image: "./assets/files/setup.png"
-    description: "Foot drop is characterized by the inability to raise the front of the foot, resulting from a weakening of the dorsiflexor muscles. This condition can cause an unsteady and painful
-    walking gait, increasing the risk of tripping and potential falls.The traditional method of managing foot drop involves using an ankle-foot orthosis. However, wearable robots provide a
-    promising alternative for muscle injury rehabilitation. This paper presents a soft wearable rehabilitation robot equipped with
-    pneumatic fiber actuators designed to assist dorsiflexor muscles.Unlike conventional medical orthoses, this soft ankle orthosis
-    preserves natural ankle motion, facilitating a more natural gait recovery for patients. With a maximum force output of 150 Newtons and a lightweight design of just 82 grams, it offers
-    comfortable wear, similar to regular clothing."
-    site: 
-  - title: IoT-based Intelligent Detection System for Pedestrian Safety Enhancement.
-    authors:  Hosni, M. M., <strong>Nejad, R. B.</strong>, Najafi, E
-    conference:  7th International Conference on Internet of Things and Applications (IoT) (pp. Pending). IEEE. 2023
+    description: >
+      "Foot drop is characterized by the inability to raise the front of the foot, resulting from a weakening of the dorsiflexor muscles. 
+      This condition can cause an unsteady and painful walking gait, increasing the risk of tripping and potential falls.The traditional method 
+      of managing foot drop involves using an ankle-foot orthosis. However, wearable robots provide a promising alternative for muscle injury 
+      rehabilitation. This paper presents a soft wearable rehabilitation robot equipped with pneumatic fiber actuators designed to assist 
+      dorsiflexor muscles. Unlike conventional medical orthoses, this soft ankle orthosis preserves natural ankle motion, facilitating a more 
+      natural gait recovery for patients. With a maximum force output of 150 Newtons and a lightweight design of just 82 grams, it offers 
+      comfortable wear, similar to regular clothing."
+    site: ""
+
+  - title: "IoT-based Intelligent Detection System for Pedestrian Safety Enhancement."
+    authors: "Hosni, M. M., <strong>Nejad, R. B.</strong>, Najafi, E."
+    conference: "7th International Conference on Internet of Things and Applications (IoT) (pp. Pending). IEEE. 2023"
     image: "./assets/files/pedestrian_safety"
-    description: "Pedestrian safety is of utmost importance in developing Autonomous Vehicles (AVs).
-    Accurate detection of pedestrians could be a challenging task to provide safe vehicle and pedestrian interaction. This work incorporates two deep
-    learning-based models YOLOv5 and YOLOv8 aiming at safe interaction between AVs and pedestrians specifically in complex and high-density environments"
-    site: 
+    description: >
+      "Pedestrian safety is of utmost importance in developing Autonomous Vehicles (AVs).
+      Accurate detection of pedestrians could be a challenging task to provide safe vehicle and pedestrian interaction. This work incorporates two 
+      deep learning-based models YOLOv5 and YOLOv8 aiming at safe interaction between AVs and pedestrians specifically in complex and high-density environments."
+    site: ""
