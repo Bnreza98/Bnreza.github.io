@@ -1,18 +1,10 @@
 <h3 id="publications" style="margin: 2px 0px -15px;">Journal Articles</h3>
-<div class="publications">
+<div class="publications" style="text-align: justify;">
   <ol class="bibliography">
     {% for link in site.data.publications.main %}
       <li>
-        <div class="pub-row">
-          <div class="col-sm-3 abbr" style="position: relative; padding-right: 15px; padding-left: 15px;">
-            {% if link.image %} 
-              <img src="{{ link.image }}" class="teaser img-fluid z-depth-1" style="width=200;height=50%">
-            {% endif %}
-            {% if link.image2 %} <!-- Add this block for the second image -->
-              <img src="{{ link.image2 }}" class="teaser img-fluid z-depth-1" style="width=100;height=40%">
-            {% endif %}
-          </div>
-          <div class="col-sm-9" style="position: relative; padding-right: 15px; padding-left: 20px;">
+        <div class="pub-row" style="display: block;">
+          <div class="pub-info" style="padding-right: 15px; padding-left: 15px;">
             <div class="title"><a href="{{ link.site }}">{{ link.title }}</a></div>
             <div class="author">{{ link.authors }}</div>
             {% if link.conference %} 
@@ -26,12 +18,19 @@
               <!-- ... (Other links) ... -->
             </div>
           </div>
+          {% if link.image %} 
+            <div class="image-container" style="margin-top: 15px;">
+              <img src="{{ link.image }}" class="teaser img-fluid z-depth-1" style="width: 100%;">
+            </div>
+          {% endif %}
+          {% if link.image2 %}
+            <div class="image-container" style="margin-top: 15px;">
+              <img src="{{ link.image2 }}" class="teaser img-fluid z-depth-1" style="width: 100%;">
+            </div>
+          {% endif %}
         </div>
       </li>
-
-<br>
-
-{% endfor %}
-
-</ol>
+      <br>
+    {% endfor %}
+  </ol>
 </div>
